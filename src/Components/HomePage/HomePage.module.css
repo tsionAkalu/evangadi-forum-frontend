@@ -1,0 +1,86 @@
+.container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.welcome_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.welcome_section h2 {
+  margin: 0;
+  color: #333;
+  text-align: right;
+}
+
+.welcome_section h4 {
+  margin: 0;
+  color: #666;
+  text-align: left;
+}
+
+.ask_question_button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.ask_question_button:hover {
+  background-color: #0056b3;
+}
+
+.questions_section {
+  margin-top: 20px;
+}
+
+.question_container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user_area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.user_icon {
+  font-size: 24px;
+}
+
+.user_area p {
+  margin: 0;
+  color: #333;
+}
+
+.title {
+  margin-left: 20px;
+  color: #333;
+  font-size: 16px;
+  flex-grow: 1;
+}
+
+.arrow {
+  margin-left: auto;
+  font-size: 24px;
+  color: #333;
+}
+
+.question_container button:hover {
+  background-color: #cc6900;
+}
+
